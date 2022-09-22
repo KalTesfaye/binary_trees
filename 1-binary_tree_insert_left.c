@@ -8,7 +8,6 @@
  *
  * Return: pointer to the new node
  */
-
 binary_tree_t *binary_tree_node_1(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new_node;
@@ -32,7 +31,6 @@ binary_tree_t *binary_tree_node_1(binary_tree_t *parent, int value)
  *
  * Return: pointer to the created node, or NULL on failure
  */
-
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
 	binary_tree_t *left_child;
